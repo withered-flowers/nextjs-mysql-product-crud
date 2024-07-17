@@ -1,6 +1,8 @@
 // ? Pada App Router, jsx tanpa kata kata "use client", dijanjikan akan dirender oleh server
 // ? Oleh sebab itu, kita bisa saja langsung memanggil backend directly tanpa perlu
 // ? menembak via API (/api) ataupun Route Handler yang ada di NextJS
+export const dynamic = 'force-dynamic';
+
 
 import { fetchDetailProducts } from "@/repositories";
 import Link from "next/link";

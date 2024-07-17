@@ -15,4 +15,12 @@ module.exports = {
 			},
 		];
 	},
+	experimental: {
+		serverActions: {
+			allowedOrigins: [
+				"opulent-space-xylophone-vpw4wpxpqfxg-3002.app.github.dev",
+				"localhost:3002",
+			],
+		},
+	},
 };

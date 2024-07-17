@@ -13,7 +13,7 @@ async function loadProduct() {
 		console.error("Error", products.message)
 	}
 
-	console.log("data", products);
+	// console.log("data", products);
 
 	return products[0];
 }

@@ -14,7 +14,8 @@ async function loadProduct(productId) {
 	// );
 
 	const data = await fetchDetailProducts(productId);
-	return data;
+	// console.log(data);
+	return data[0];
 }
 
 async function ProductPage({ params }) {
